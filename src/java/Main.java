@@ -6,7 +6,7 @@ public class Main {
         Searcher searcher = new Searcher();
         PersonChecker personChecker = new PersonChecker();
         People people = new People();
-        searcher.printPersons(people.getPeople(), personChecker);
+        searcher.printPersons(people.getPeople(), personChecker, 1);
     }
 
 }

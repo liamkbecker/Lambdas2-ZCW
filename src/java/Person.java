@@ -18,8 +18,20 @@ public class Person {
         this.emailAddress = "ronathan@gmail.com";
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public int getAge() {
         return this.age;
+    }
+
+    public Sex getGender() {
+        return this.gender;
+    }
+
+    public String getEmail() {
+        return this.emailAddress;
     }
 
     public void printPerson() {
