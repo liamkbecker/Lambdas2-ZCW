@@ -11,6 +11,13 @@ public class Person {
     Sex gender;
     String emailAddress;
 
+    public Person(){
+        this.name = "Ron";
+        this.age = 10;
+        this.gender = Sex.MALE;
+        this.emailAddress = "ronathan@gmail.com";
+    }
+
     public int getAge() {
         return this.age;
     }
@@ -18,4 +25,5 @@ public class Person {
     public void printPerson() {
         System.out.println(this.name + ": " + this.age + ", " + this.gender + ", " + this.emailAddress);
     }
+
 }
