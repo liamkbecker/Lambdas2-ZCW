@@ -1,9 +1,8 @@
 package java;
 
-public class PersonChecker implements CheckPerson{
+public class PersonChecker{
 
-    @Override
-    public boolean test(Person p) {
+    public boolean test(Person p){
         return false;
     }
 
